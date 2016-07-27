@@ -1,0 +1,118 @@
+@media (max-width: 917px) {
+    .features-item {
+     	float: none;
+     	margin: 0 auto;
+     	margin-bottom: 20px;
+    }
+    .features-item:last-child {
+     	margin: 0 auto;
+    }
+    .container,
+    .main-slider .container {
+     	width: auto;
+
+    }
+    .slide1 .slide-text, 
+    .slide2 .slide-text, 
+    .slide3 .slide-text {
+    	width: auto;
+    	text-align: center;
+    }
+    .btn {
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 50px;
+    }
+    .slide3 .slide-title {
+    	width: auto;
+    }
+    .slider-controls {
+    	top: 318px;
+    }
+    .slide3 p {
+    	width: auto;
+    	text-align: center;
+    }
+    .project-site {
+    	float: none;
+    	margin: 0 auto;
+    	width: 230px;
+    	margin-bottom: 20px;
+    }
+    .project-site:last-child {
+    	float: none;
+    	margin: 0 auto;
+    }
+    .feedback {
+    	top: 2500px;
+    }
+    .main-navigator {
+    	margin-left: 80px;
+    }
+    .basket {
+    	float: left;
+    	margin-left: 50px;
+    }
+}
+@media (max-width: 866px) {
+     .info-left,
+     .info-right {
+     	float: none;
+    }
+     .info-left {
+     	margin: 0 auto;
+    }
+     .info-left-list {
+     	text-align: center;
+    }
+     .info-right {
+     	margin: 0 auto;
+    }
+}
+@media (max-width: 840px) {
+	.footer-social,
+	.footer-info {
+        float: none;
+        text-align: center;
+	}
+	.footer-info {
+		padding-bottom: 20px;
+		margin: 0 auto;
+	}
+	.contacts {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 10px;
+		margin-bottom: 0;
+	}
+	.index-contacts {
+		padding-top: 1px;
+	}
+}
+
+@media (max-width: 770px) {
+	.main-navigator {
+		margin-left: 10px;
+	}
+} 
+@media (max-width: 699px) {
+    .basket a {
+    	display: none;
+    }
+    .basket:before {
+    	cursor: pointer;
+    }
+}
+@media (max-width: 635px) {
+	.main-navigator-list li {
+		display: block;
+		width: 100%;
+
+	}
+	.slide:nth-child(1),
+	.slide:nth-child(2),
+	.slide:nth-child(3) {
+		background-image: none;
+	}
+}
